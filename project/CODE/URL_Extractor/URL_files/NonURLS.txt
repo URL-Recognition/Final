@@ -1,0 +1,28 @@
+classmetho
+sdcx.
+aining set, learning.
+patterns that reflect.
+idiosyncrasies of the
+training.
+A percent-encoded.
+octet is encoded
+as a character triplet
+consisting of the
+percent character.
+followed by the two
+representing that
+octet's numeric value.
+character serves as the indicator
+only appear if it is followed
+by two hex digits.Before
+classification is performed,
+the text classifier is 'trained'
+by passing it a long list of input
+labeled as URL and non-URL strings.
+From each string, a histogram is
+created and using the Naive Bayes
+classifier method, probabilities
+are calculated which
+determine whether a text
+is likely a URL or not.
+Using a small

@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1bdf72ce-756c-47d5-a771-aaae70de9445" name="Default" comment="Updating to contain extra files">
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/._html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/._average_precision.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/._confusion_matrix.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/._detections_Argentina.jpg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/._highlighting" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/._hog_template.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/._index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/._placeholder.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/._thumbnails" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/._LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/._README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/._README.ru.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/._classref.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/._highlight.pack.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/._styles" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._arta.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._ascetic.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._brown_paper.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._brown_papersq.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._dark.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._default.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._far.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._github.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._googlecode.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._idea.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._ir_black.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._magula.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._monokai.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._pojoaque.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._pojoaque.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._rainbow.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._school_book.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._school_book.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._solarized_dark.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._solarized_light.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._sunburst.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._tomorrow-night-blue.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._tomorrow-night-bright.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._tomorrow-night-eighties.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._tomorrow-night.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._tomorrow.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._vs.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._xcode.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/highlighting/styles/._zenburn.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Bedroom_image_0011.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Bedroom_image_0019.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Bedroom_image_0071.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Bedroom_image_0108.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Bedroom_image_0117.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Bedroom_image_0118.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Bedroom_image_0157.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Bedroom_image_0172.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Coast_image_0033.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Coast_image_0051.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Coast_image_0077.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Coast_image_0085.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Coast_image_0087.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Coast_image_0112.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Coast_image_0228.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Coast_image_0307.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Forest_image_0009.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Forest_image_0057.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Forest_image_0060.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Forest_image_0080.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Forest_image_0083.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Forest_image_0111.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Forest_image_0132.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Forest_image_0309.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Highway_image_0036.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Highway_image_0054.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Highway_image_0078.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Highway_image_0144.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Highway_image_0155.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Highway_image_0209.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Industrial_image_0021.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Industrial_image_0033.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Industrial_image_0068.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Industrial_image_0079.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Industrial_image_0087.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Industrial_image_0089.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Industrial_image_0108.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Industrial_image_0136.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._InsideCity_image_0044.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._InsideCity_image_0055.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._InsideCity_image_0056.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._InsideCity_image_0074.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._InsideCity_image_0085.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._InsideCity_image_0127.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._InsideCity_image_0131.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._InsideCity_image_0295.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Kitchen_image_0003.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Kitchen_image_0033.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Kitchen_image_0042.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Kitchen_image_0048.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Kitchen_image_0097.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Kitchen_image_0128.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Kitchen_image_0144.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Kitchen_image_0161.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Kitchen_image_0175.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._LivingRoom_image_0022.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._LivingRoom_image_0062.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._LivingRoom_image_0066.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._LivingRoom_image_0114.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._LivingRoom_image_0116.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._LivingRoom_image_0121.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._LivingRoom_image_0165.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Mountain_image_0018.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Mountain_image_0039.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Mountain_image_0041.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Mountain_image_0049.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Mountain_image_0065.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Mountain_image_0083.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Mountain_image_0098.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Mountain_image_0119.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Mountain_image_0151.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Mountain_image_0302.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Office_image_0002.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Office_image_0020.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Office_image_0032.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Office_image_0056.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Office_image_0112.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Office_image_0117.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Office_image_0120.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Office_image_0138.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._OpenCountry_image_0005.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._OpenCountry_image_0018.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._OpenCountry_image_0065.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._OpenCountry_image_0103.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._OpenCountry_image_0187.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._OpenCountry_image_0207.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Store_image_0034.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Store_image_0038.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Store_image_0047.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Store_image_0063.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Store_image_0074.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Store_image_0081.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Store_image_0107.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Store_image_0146.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Store_image_0221.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Store_image_0278.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Street_image_0036.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Street_image_0046.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Street_image_0072.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Street_image_0088.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Street_image_0135.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Street_image_0143.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Street_image_0197.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Suburb_image_0041.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Suburb_image_0070.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Suburb_image_0084.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Suburb_image_0104.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Suburb_image_0144.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Suburb_image_0149.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Suburb_image_0156.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._Suburb_image_0175.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._TallBuilding_image_0023.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._TallBuilding_image_0036.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._TallBuilding_image_0038.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._TallBuilding_image_0049.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._TallBuilding_image_0057.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._TallBuilding_image_0077.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._TallBuilding_image_0131.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/__MACOSX/html/thumbnails/._TallBuilding_image_0318.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/average_precision.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/confusion_matrix.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/detections_Argentina.jpg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/README.ru.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/classref.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/highlight.pack.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/arta.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/ascetic.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/brown_paper.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/brown_papersq.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/dark.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/default.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/far.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/github.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/googlecode.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/idea.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/ir_black.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/magula.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/monokai.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/pojoaque.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/pojoaque.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/rainbow.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/school_book.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/school_book.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/solarized_dark.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/solarized_light.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/sunburst.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/tomorrow-night-blue.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/tomorrow-night-bright.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/tomorrow-night-eighties.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/tomorrow-night.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/tomorrow.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/vs.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/xcode.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/highlighting/styles/zenburn.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/hog_template.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/placeholder.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Bedroom_image_0011.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Bedroom_image_0019.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Bedroom_image_0071.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Bedroom_image_0108.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Bedroom_image_0117.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Bedroom_image_0118.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Bedroom_image_0157.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Bedroom_image_0172.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Coast_image_0033.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Coast_image_0051.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Coast_image_0077.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Coast_image_0085.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Coast_image_0087.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Coast_image_0112.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Coast_image_0228.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Coast_image_0307.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Forest_image_0009.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Forest_image_0057.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Forest_image_0060.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Forest_image_0080.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Forest_image_0083.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Forest_image_0111.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Forest_image_0132.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Forest_image_0309.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Highway_image_0036.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Highway_image_0054.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Highway_image_0078.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Highway_image_0144.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Highway_image_0155.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Highway_image_0209.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Industrial_image_0021.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Industrial_image_0033.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Industrial_image_0068.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Industrial_image_0079.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Industrial_image_0087.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Industrial_image_0089.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Industrial_image_0108.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Industrial_image_0136.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/InsideCity_image_0044.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/InsideCity_image_0055.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/InsideCity_image_0056.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/InsideCity_image_0074.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/InsideCity_image_0085.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/InsideCity_image_0127.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/InsideCity_image_0131.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/InsideCity_image_0295.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Kitchen_image_0003.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Kitchen_image_0033.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Kitchen_image_0042.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Kitchen_image_0048.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Kitchen_image_0097.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Kitchen_image_0128.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Kitchen_image_0144.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Kitchen_image_0161.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Kitchen_image_0175.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/LivingRoom_image_0022.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/LivingRoom_image_0062.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/LivingRoom_image_0066.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/LivingRoom_image_0114.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/LivingRoom_image_0116.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/LivingRoom_image_0121.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/LivingRoom_image_0165.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Mountain_image_0018.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Mountain_image_0039.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Mountain_image_0041.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Mountain_image_0049.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Mountain_image_0065.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Mountain_image_0083.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Mountain_image_0098.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Mountain_image_0119.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Mountain_image_0151.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Mountain_image_0302.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Office_image_0002.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Office_image_0020.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Office_image_0032.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Office_image_0056.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Office_image_0112.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Office_image_0117.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Office_image_0120.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Office_image_0138.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/OpenCountry_image_0005.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/OpenCountry_image_0018.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/OpenCountry_image_0065.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/OpenCountry_image_0103.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/OpenCountry_image_0187.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/OpenCountry_image_0207.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Store_image_0034.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Store_image_0038.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Store_image_0047.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Store_image_0063.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Store_image_0074.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Store_image_0081.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Store_image_0107.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Store_image_0146.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Store_image_0221.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Store_image_0278.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Street_image_0036.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Street_image_0046.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Street_image_0072.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Street_image_0088.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Street_image_0135.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Street_image_0143.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Street_image_0197.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Suburb_image_0041.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Suburb_image_0070.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Suburb_image_0084.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Suburb_image_0104.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Suburb_image_0144.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Suburb_image_0149.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Suburb_image_0156.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/Suburb_image_0175.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/TallBuilding_image_0023.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/TallBuilding_image_0036.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/TallBuilding_image_0038.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/TallBuilding_image_0049.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/TallBuilding_image_0057.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/TallBuilding_image_0077.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/TallBuilding_image_0131.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Files for project/FinalProjRepo/html/html/thumbnails/TallBuilding_image_0318.jpg" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageOCR.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImageOCR.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1_processed.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/1_processed.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1_processed.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/preprocessed/1_processed.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URL_Detector.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/URL_Detector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Files for project/FinalProjRepo" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../Files for project/FinalProjRepo" value="HTML_project_page" />
+      </map>
+    </option>
+    <push-targets>
+      <push-target-info target-remote="origin" target-branch="master" repo="$PROJECT_DIR$/../Files for project/FinalProjRepo" source="master" />
+    </push-targets>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/URL_files/URLS.txt" />
+        <option value="$PROJECT_DIR$/URL_files/NonURLS.txt" />
+        <option value="$PROJECT_DIR$/URL_Detector.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/ImageOCR.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="86" />
+    <option name="y" value="32" />
+    <option name="width" value="1225" />
+    <option name="height" value="708" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="URL_Extractor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="URL_Extractor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="URL_Extractor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="URL_Extractor" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="URL_Extractor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="URL_Extractor" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="URL_Extractor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="URL_Extractor" type="462c0819:PsiDirectoryNode" />
+              <item name="URL_files" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CAD\Desktop\FinalProjectCS385\URL_Extractor\images\preprocessed" />
+      <recent name="C:\Users\CAD\Desktop\FinalProjectCS385\URL_Extractor\URL_files" />
+      <recent name="C:\Users\CAD\Desktop\FinalProjectCS385\URL_Extractor" />
+      <recent name="C:\Users\CAD\Desktop\FinalProjectCS385\URL_Extractor\images" />
+      <recent name="C:\Users\CAD\Desktop\FinalProjectCS385\URL_Extractor\text" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CAD\Desktop\FinalProjectCS385\URL_Extractor\images" />
+      <recent name="C:\Users\CAD\Desktop\FinalProjectCS385\URL_Extractor\text" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="ImageOCR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="URL_Extractor" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImageOCR.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="URL_Extractor" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.ImageOCR" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ImageOCR" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bdf72ce-756c-47d5-a771-aaae70de9445" name="Default" comment="" />
+      <created>1512860867360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512860867360</updated>
+      <workItem from="1513134816176" duration="58000" />
+    </task>
+    <task id="LOCAL-00001" summary="Updating to contain needed folders.">
+      <created>1512977715694</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512977715694</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updating to contain extra files">
+      <created>1513038114857</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1513038114857</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="58000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="86" y="32" width="1225" height="708" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3917439" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28846154" sideWeight="0.5116823" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29545453" sideWeight="0.48831776" order="10" side_tool="false" content_ui="tabs" x="489" y="372" width="862" height="222" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.49479166" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updating to contain needed folders." />
+    <MESSAGE value="Updating to contain extra files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating to contain extra files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/test3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_files/NonURLS.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_files/URLS.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_Detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageOCR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/test3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_files/NonURLS.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_files/URLS.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageOCR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="20" lean-forward="false" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_Detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/test3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_files/NonURLS.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_files/URLS.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_Detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="15" lean-forward="false" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageOCR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageOCR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7172.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adapthresh.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6384.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/test5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/test6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/test2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_files/links.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/test3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/full_image_slice_processed.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/full_image_slice.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/test.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_files/URLS.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_files/NonURLS.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_Detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="2408" column="0" lean-forward="false" selection-start-line="2408" selection-start-column="0" selection-end-line="2408" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/preprocessed/1_processed.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/1_processed.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageOCR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

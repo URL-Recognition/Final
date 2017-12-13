@@ -1,0 +1,250 @@
+<html>
+<head>
+<title>CS 385 Final Project</title>
+<link href='http://fonts.googleapis.com/css?family=Nunito:300|Crimson+Text|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" title="Default" href="styles/github.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>  
+
+<link rel="stylesheet" href="highlighting/styles/default.css">
+<script src="highlighting/highlight.pack.js"></script>
+
+<style type="text/css">
+body {
+	margin: 0px;
+	width: 100%;
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	background: #fcfcfc;
+}
+h1 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: normal;
+	font-size: 28px;
+	margin: 25px 0px 0px 0px;
+	text-align: center;
+
+}
+
+h2 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: normal;
+	font-size: 32px;
+	margin: 15px 0px 35px 0px;
+	color: #333;	
+	word-spacing: 3px;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: normal;
+	font-size: 26px;
+	margin: 10px 0px 10px 0px;
+	color: #333;
+	word-spacing: 2px;
+	text-align: center;
+}
+h4 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: normal;
+	font-size: 22px;
+	margin: 10px 0px 10px 0px;
+	color: #333;
+	word-spacing: 2px;
+	text-align: center;
+}
+
+h5 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	margin: 10px 0px 10px 0px;
+	color: #111;
+	word-spacing: 2px;
+	text-align: center;
+}
+
+p, li {
+	color: #444;
+}
+
+a {
+	color: #DE3737;
+}
+
+.container {
+	margin: 0px auto 0px auto;
+	width: 1160px;
+}
+
+#header {
+	background: #333;
+	width: 100%;
+}
+
+#headersub {
+	color: #ccc;
+	width: 960px;
+	margin: 0px auto 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+
+.chart {
+	width: 480px;
+}
+.lol {
+	font-size: 16px;
+	color: #888;
+	font-style: italic;
+}
+.sep {
+	height: 1px;
+	width: 100%;
+	background: #999;
+	margin: 20px 0px 20px 0px;
+}
+.footer{
+	font-size: 16px;
+}
+.latex {
+	width: 100%;
+}
+
+.latex img {
+	display: block;
+	margin: 0px auto 0px auto;
+}
+
+pre {
+	font-family: 'Droid Sans Mono';
+	font-size: 14px;
+}
+
+table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+table td img {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#contents a {
+}
+</style>
+<script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+</script>
+</head>
+<body>
+<div id="header" >
+<div id="headersub">
+<h1>URL-Recognition (Ultra Rad Lightsabers)</h1>
+<h2><span style="color: #DE3737">(Carlos Downie, Rodrigo Estrella, Ryan Yu)</span></h2>
+</div>
+</div>
+<div class="container">
+
+<h2>CS 385 : URL-Recognition/Detecting URLs within an image.</h2>
+
+<h2>Introduction</h2>
+
+<div style="float: right; padding: 20px;">
+<img src="goal_resized.png" />
+<p style="font-size: 14px">Goal of URL-Rocognition project is to take the URL of an image and extract the URL as text.</p>
+</div>
+
+<p>The goal of the project was to be able to extract a URL from an image, while ignoring any other text in the image. This would make it easier to take a link out from some image and send to people or to extract information from a screen shot. The general strategy used to obtain the results we were looking for was to first classify whether a subsection of an image has a URL, using a bag of words features model. Then after determining the subsections, we pre_process the image further and ran optical character recognition to obtain text from the section of interest. Finally we ran another bag of words on the input text, using Naive Bayes model in order to classify whether the text is a URL or not. A big component of the project was to collect images and data for training our models. We were able to automate data collection using the python library Selenium in order collect over 1000 screenshots.</p>
+
+<div style="clear:both">
+<h2>Project Components</h2>
+<ol>
+	<li>Data Collection</li>
+	<li>URL Detector</li>
+	<li>Preprocessing</li>
+	<li>Optical Character Recognition</li>
+	<li>Text Classifier</li>
+</ol>
+
+<div style="clear:both">
+<h2>Data Collection</h2>
+
+<div style="float: left; padding: 20px;">
+<img src="data_collection.gif" />
+<p style="font-size: 14px">Collecting screenshots by our web crawler.</p>
+</div>
+
+<p>For data collection, we used the python libraries Selenium and PyAutoGui to visit different webpages and take screenhots. Selenium worked as a driver that could navigate to a given link. We had a collection of 1050 links that were read in the python script for the webdriver to navigate to. This list consisted of 50 links to the most popular webpages as well as 15 different links from each of the originals. Once a webpage had fully loaded, the library PyAutoGui was used to save a screenshot of that page. Using this method, we were able to collect a total of 1050 images for use as training and testing images. All images were collected using the Google Chrome Browser. </p>
+
+<div style="clear:both">
+<h2>URL Detector</h2>
+
+<div style="float: left; padding: 20px;">
+<img src="image_sliced.png" />
+<p style="font-size: 14px">The image is preprocessed and sliced into 10 horizontal sections.</p>
+</div>
+
+<p>This module starts with a matlab script that takes a full sized screenshot, presumably of a webpage and divides it into 10 horizontal slices. These slices were designed to be fed into the next matlab script which trained a bag-of-features model. This bag-of-features model then determines whether or not the given slice is likely to contain a URL. The purpose of partitioning the original screenshot was to increase accuracy. We found that later modules had trouble identifying text in large images. Performing a sliding window, would help reduce the problem size. By only further processing the subsections that are likely to contain URLS acurracy can be improved. This is the first part of a two filter method. This first filter is designed to narrow down our input image so the second filter can quickly and accurately determine the output.  </p>
+
+<div style="clear:both">
+<h2>Preprocessing</h2>
+
+<div style="float: left; padding: 20px;">
+<img src="1_processed.png" />
+<p style="font-size: 14px">Image slices determined to contain URL(s) are preprocessed for the OCR.</p>
+</div>
+
+<p>The Preprocessing receives and image and prepares it for text extraction. The Python script uses OpenCV to read the image and apply the necessary operations. To generalize the input we grayscale the image. Originally,  the script used Otsu's method for thresholding but this provided more noise. Upon further investigation we found that resizing the image  and applying Gaussian Adaptive Thresholding improved the OCR accuracy.</p>
+
+<div style="clear:both">
+<h2>Optical Character Recognition</h2>
+
+<p>The optical character recognition (OCR) component of our project leverages the power of Google's Tesseract OCR, in order to obtain text from a provided image. We used a python wrapper called pytesseract which allowed us to call tesseract functionality within our python scripts directly. Using the image results from our preprocessing step, we were able to improve the OCR accuracy and obtain a list of strings which we then pass to our text classifier.</p>
+
+<div style="clear:both">
+<h2>Text Classifier</h2>
+
+<div style="float: left; padding: 20px;">
+<img src="results.png" />
+<p style="font-size: 14px">When running our python code on the first slice from our example image, these are the results.</p>
+</div>
+
+<p>The final step of our URL recognition process involves filtering out non-URL text in order to get just the URL text from an image. The text classifier uses a bag of words model in order to try and correctly classify whether a given text is a URL or not. The classifier treats each character within a string as a 'word', and also considers the length of the string and presence of substrings like 'https', 'www', '.com' etc. Before classification is performed, the text classifier is 'trained' by passing it a long list of input labeled as URL and non-URL strings. From each string, a histogram is created and using the Naive Bayes classifier method, probabilities are calculated which determine whether a text is likely a URL or not. Using a small dataset of training text which we provided via two text files (one with only URLS and the other with non-URL text), we were able to get a fair amount of accuracy in URL text classification.</p>
+
+<h5>Example data from URL file:</h5>
+<pre><code>
+https://repl.it/@carlosd_/OCRURL
+http://www.nltk.org/book/ch06.html
+https://stackoverflow.com/questions/
+http://www.asciitable.com/
+jakevdp.github.io/blog/2013/08/07/conways-game-of-life/
+https://stackoverflow.com/1547940#1547940
+https://trello.com/b/3jAyVW5A/url-recognition
+https://en.wikipedia.org/wiki/Receiver_operating_characteristic
+</code></pre>
+
+<h5>Example data from non-URL file:</h5>
+<pre><code>
+A percent-encoded.
+octet is encoded
+as a character triplet
+consisting of the
+percent character.
+followed by the two
+representing that
+octet's numeric value.
+character serves as the indicator
+only appear if it is followed
+by two hex digits.Before
+</code></pre>
+
+<div style="clear:both">
+<h2>Conclusions</h2>
+<div style="clear:both" >
+<img src="conf.png" />
+<p>According to the confusion matrix in the image to the left, on our testing data, we were able to get 99% accuracy on True Negatives and 98% accuracy on true positives. It is tough to say whether this is truely due to the extracted features of the text, or from the landmarks in the web browser. Since the model was trained on the same section of our web browser, it is likely that some of the extracted features were things like the back and forward buttons, Search bar and window controls.</p>
+<p>The scope of this project was smaller than initially intended. However the core functionallity is still all there. This project is in a position where it can be easily expanded. The next step for the project is to expand the complexity of the input. As it stands, our URL-Detector will only find URLs in a very specific input. This is the main flaw in the system. This can be easily expanded by collecting more screenshots of different browsers, different size screenshots, and of different blocks of text. The module that uses OCR to parse the image text is very accurate. We are most proud of how we were able to sharpen the text of an image to improve OCR performace. </p>
+</div>
+</body>
+</html>
